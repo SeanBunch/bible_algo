@@ -1,5 +1,4 @@
 import React from "react";
-import "../style/Algo.css"
 
 function Algo() {
 
@@ -8,13 +7,8 @@ function Algo() {
 
     return (
         <div>
-            <h1>Bible Reading Plan </h1>
-            <h4>
-                Read all of God's words.
-            </h4>
-            <p className="tx-10">
-                ( Bible not included )
-            </p>
+            <h1>algo placeholder </h1>
+         
 
         </div>
     )

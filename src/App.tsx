@@ -8,21 +8,29 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-      <Algo />
+      <div>
+            <h1>Bible Reading Plan </h1>
+            <h4>
+                Read all of God's words.
+            </h4>
+            <p className="tx-10">
+                ( Bible not included )
+            </p>
+
+        </div>
       </header>
 
       <p>
-        To begin push the button and fill out the form. Give your reading plan a name and how many days you want to take to finished the whole bible. (number of days required) 
+        Push the button to begin. Give your reading plan a name and how many days you want to commit to finsihing the enitre bible. (number of days required) 
       </p>
 
       <br/>
       
-      <button>
-        Begin
-      </button>
+     
 
       <Form />
 
+      <Algo />
 
 
     </div>
